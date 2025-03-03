@@ -1,0 +1,58 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.idea/
+*.iml
+*.ipr
+*.iws
+# Archivos de compilación de Java
+*.class
+# Carpetas de salida de compilación
+/out/
+target/
+build/
+
+# Dependencias descargadas por Maven o Gradle
+.mvn/
+.gradle/
+!/.mvn/wrapper/maven-wrapper.jar
+!/.gradle/wrapper/gradle-wrapper.jar
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Configuraciones del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Claves o configuraciones sensibles (si usas un archivo de env variables)
+.env
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
